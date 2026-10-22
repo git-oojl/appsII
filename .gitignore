@@ -1,0 +1,9 @@
+# Material de consulta; no forma parte de la entrega de código.
+ParcialII/Flutter - 02 App Contador.pdf
+
+# Archivos locales del editor y artefactos generados.
+.vscode/
+**/.dart_tool/
+**/build/
+**/.idea/
+**/*.iml
