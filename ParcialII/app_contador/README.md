@@ -1,17 +1,30 @@
-# app_todo_mundo
+# App Contador — Parcial II
 
-A new Flutter project.
+Aplicación Flutter construida a partir de la base de **Parcial I**. Implementa
+la pantalla de contador solicitada en el material del Parcial II.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Muestra el valor actual y usa `Click` para 1, o `Clicks` en cualquier otro
+  caso.
+- Incrementa el contador con el botón `+1`.
+- Decrementa con el botón `-1`, sin permitir valores negativos.
+- Restablece el contador a cero desde el botón de actualización de la barra
+  superior.
+- Organiza la vista en `lib/presentation/screens/counter/counter_screen.dart`.
 
-A few resources to get you started if this is your first Flutter project:
+## Ejecutar
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Desde este directorio:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+Para validar el proyecto:
+
+```bash
+flutter analyze
+flutter test
+```
