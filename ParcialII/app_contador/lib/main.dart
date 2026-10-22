@@ -1,3 +1,4 @@
+import 'package:contador_app/presentation/screens/counter/counter_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,12 +10,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'App Contador',
+      theme: ThemeData(colorSchemeSeed: Colors.blue, useMaterial3: true),
+      home: const CounterScreen(),
     );
   }
 }

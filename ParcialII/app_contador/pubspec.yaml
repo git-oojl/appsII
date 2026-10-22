@@ -1,5 +1,5 @@
-name: app_todo_mundo
-description: "A new Flutter project."
+name: contador_app
+description: "Aplicación de contador para el Parcial II de Apps Móviles II."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
